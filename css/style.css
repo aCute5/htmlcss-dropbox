@@ -1,0 +1,20 @@
+*{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans Mono', monospace;
+}
+header{
+        background-color: rgb(100, 149,237);
+}
+nav{
+        background-color: white;
+        display: flex;
+}
+a{
+    text-decoration: none;
+}
+.nav-list{
+            display: flex;
+            justify-content: space-around;
+}
