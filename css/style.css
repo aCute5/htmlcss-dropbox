@@ -85,9 +85,9 @@ nav li{
 }
 .blue-box img{
                     position: absolute;
-                    max-width: 800px;
+                    max-width: 700px;
                     bottom: -60px;
-                    right: 10rem;
+                    right: 18rem;
 } 
 .paragraph-first{
                     max-width: 400px;
@@ -101,5 +101,7 @@ nav li{
 .paragraph-first i{
                     font-size: 40px;
 }
-              
+main{
+    
+}             
 
