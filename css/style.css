@@ -8,13 +8,51 @@ header{
         background-color: rgb(100, 149,237);
 }
 nav{
-        background-color: white;
+        background-color: rgb(255, 255, 255);
         display: flex;
+        justify-content: space-between;
+        width: 100%;
+        font-size: 12px;
+               
 }
 a{
     text-decoration: none;
 }
+nav li{
+        list-style: none;
+        display: inline;
+}
 .nav-list{
             display: flex;
-            justify-content: space-around;
+            line-height: 2rem;
+            align-items: center;
+            gap: 20px;
+}
+.nav-list ul{
+                display: flex;
+                gap: 20px;
+}
+
+.nav-list img{
+             max-width: 100px;
+}
+.nav-list-2{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            line-height: 2rem;
+            padding: 1em;
+            gap: 20px;
+
+}
+.nav-list-2 ul{
+                display: flex;
+                gap: 20px;
+}
+.bluebotton{
+            color: white;
+            background-color: rgb(0, 62, 255);
+            width: 2rem;
+            padding: 1em;
+            
 }
