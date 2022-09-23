@@ -2,7 +2,7 @@
     box-sizing: content-box;
     margin: 0;
     padding: 0;
-    font-family: 'Noto Sans Mono', monospace;
+    font-family: 'Noto Sans Mono',
 }
 header{
         background-color: rgb(100, 149,237);
@@ -17,12 +17,15 @@ nav{
         width: 100%;
         font-size: 12px;
         position: fixed;
-        box-shadow: 3px 2px rgb(184, 184, 184) ;
+        box-shadow: 3px 2px rgb(184, 184, 184);
+        color: black;
+       
 
                
 }
 a{
     text-decoration: none;
+    
 }
 nav li{
         list-style: none;
@@ -60,7 +63,7 @@ nav li{
             background-color: rgb(0, 62, 255);
             max-width: max-content;
             padding: 1em;
-            font-size: smaller;
+            
             min-width: 240px;
             text-align: center;
 }
@@ -106,18 +109,29 @@ nav li{
 .paragraph-first i{
                     font-size: 40px;
 }
+.paragraph-first{
+                    max-width: 350px;
+}
+
 main{
     width: 1200px;
     margin:auto ;
     padding: 10em;
     line-height: 2rem;
+    display: flex;
+    flex-direction: column;
 }
 .plans{
         display: flex;
         padding: 2rem;
         max-width: 1300px;
         flex-wrap: wrap;
-       gap: 2rem;
+        gap: 2rem;
+}
+.plans #buttons{
+                display: block;
+                padding-top: 1rem;
+                padding-bottom: 1rem;
 }
 .container-plans{
                 max-width: 1300px;
@@ -127,21 +141,17 @@ main{
 }
 
 .plans-cards{
-             display: flex;
-             flex-direction: column;
              gap: 1em;
              border-style: groove;
              padding: 1em;
              width: 400px;
              font-size: smaller;
+             
 }
 .titles-cards{
-             border-bottom: 100%;
-             border-width: 2rem;
+             border-bottom: 1px solid;
+             text-align: center;
              border-color: grey;
-             align-self: center;
-             
-             
 }
 .plans-cards li{
                 list-style: none;
@@ -162,6 +172,28 @@ main{
                          align-self: center;
                          padding: 1em;
                          
-}                           
-                        
+}
+.enterprise{
+            border: 1px solid;
+            border-color: grey;
+            
+}
+.enterprise-section{
+                        display: flex;
+                        justify-content: space-between;
+                        padding: 2em;
+                        flex-wrap: wrap;
+                                
+}
+.enterprise-section .bluebotton{
+                                align-self: flex-end;
+                                
+                                
+}
+.enterprise-paragraph{
+                        padding: 2em;
+}
+                              
+             
+             
 
