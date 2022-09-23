@@ -19,12 +19,15 @@ nav{
         position: fixed;
         box-shadow: 3px 2px rgb(184, 184, 184);
         color: black;
-       
-
-               
-}
+}       
 a{
-    text-decoration: unset;
+        text-decoration: none;
+}
+               
+
+nav a{
+       color: black;
+       text-decoration: none;
     
 }
 nav li{
@@ -303,6 +306,118 @@ main{
 .clear_channel{
                 background-color: rgb(223, 221, 97);
 }
+.business-container{
+                   background-color:rgb(69, 138, 202); 
+                   display: flex;
+                   justify-content: center;
+                   flex-direction: column;
+                   flex-wrap: wrap;
+                   align-content: center;
+}
+.business{
+          display: flex;
+          max-width: 950px;
+          padding: 3rem;
+          gap: 10em;
+          
+}
+.business h1{
+                width: 425px;
+                
+}
+.business h1{
+              color: #61082b;
+}
+.free-trial{
+            background-color: white;
+            color: black;
+            font-size: smaller;
+            width: 180px;
+            height: 30%;
+            padding: 8px;
+            align-items: center;
+}
+.questions-container{
+                    display: flex;
+                    justify-content: center;
+                    padding: 5rem;
+}
+.questions{
+          text-align: left;
+          width: 900px;
+          gap: 10px;
+          
+          
+}
+.questions div{
+                border-bottom: 1px solid;
+                border-color: grey;
+                padding: 20px 0px;
+                display: flex;
+                justify-content: space-between;
+                
+                
+                
+}
+.questions span{
+                margin-right: 20px;
+                
+} 
+
+.container-footer{
+                   display: flex;
+                   justify-content: space-around;
+                   width: 1200px;
+                   align-content: space-between ;
+                   padding-top: 50px; 
+                   padding-bottom: 50px;
+                   margin: auto;                
+}
+footer{
+        background-color: rgb(0, 0, 0);
+        margin: auto;
+        color: white;
+}
+.footer-column{
+        display:flex;
+        padding-top: 20px;
+        color: white;
+        font-size: smaller;
+}
+.footer-column li{
+        padding: 10px 20px;
+        list-style-type: none;
+}
+.footer ul{
+           list-style-type: none;
+}
+.titles{
+        font-weight: bold;
+        font-size: 1.3em;
+}
+.container-footer a{
+         text-decoration: none;
+         color: white;
+}
+.language{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          width: 1200px;
+          margin: auto;
+          padding: 2rem 0;
+}
+.language hr{
+                width: 120px;
+                margin-bottom: 2rem;
+                
+}
+
+
+          
+
+
+
 
 
      
