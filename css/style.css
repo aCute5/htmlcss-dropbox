@@ -17,6 +17,8 @@ nav{
         width: 100%;
         font-size: 12px;
         position: fixed;
+        box-shadow: 3px 2px rgb(184, 184, 184) ;
+
                
 }
 a{
@@ -59,6 +61,8 @@ nav li{
             max-width: max-content;
             padding: 1em;
             font-size: smaller;
+            min-width: 240px;
+            text-align: center;
 }
 .blue-box{
           display: flex;
@@ -106,7 +110,58 @@ main{
     width: 1200px;
     margin:auto ;
     padding: 10em;
-    gap: 2rem;
+    line-height: 2rem;
 }
-      
+.plans{
+        display: flex;
+        padding: 2rem;
+        max-width: 1300px;
+        flex-wrap: wrap;
+       gap: 2rem;
+}
+.container-plans{
+                max-width: 1300px;
+                display: flex;
+                gap: 2rem;
+                
+}
+
+.plans-cards{
+             display: flex;
+             flex-direction: column;
+             gap: 1em;
+             border-style: groove;
+             padding: 1em;
+             width: 400px;
+             font-size: smaller;
+}
+.titles-cards{
+             border-bottom: 100%;
+             border-width: 2rem;
+             border-color: grey;
+             align-self: center;
+             
+             
+}
+.plans-cards li{
+                list-style: none;
+               
+} 
+.plans-cards .check-list:before{
+                         content:'✓';
+                         color: blue;
+}
+.rule{
+        max-width: 30px;
+}
+     
+.plans-cards .bluebotton a{
+                           color: white;
+}
+.plans-cards .bluebotton{
+                         align-self: center;
+                         padding: 1em;
+                         
+}                           
+                        
 
