@@ -90,12 +90,12 @@ nav li{
 } 
 .header-container h1{
                      font-weight: bolder;
-                     font-size: 60px;
+                     font-size: 80px;
 }
 .blue-box img{
                     position: absolute;
-                    max-width: 800px;
-                    bottom: -60px;
+                    max-width: 900px;
+                    bottom: -90px;
                     right: 12rem;
 } 
 .paragraph-first{
@@ -242,6 +242,78 @@ main{
           padding-top: 4em;
           max-width: 400px;
 }
+.container-cubes-section{
+                        display: flex;
+                       
+}
+.container-cubes{
+                display: flex;
+                width: 33.3%;
+                flex-wrap: wrap;
+                
+}
+.overflow-section{
+                width: 33.3%;
+                padding: 2rem;
+                
+}
+.overflow-section hr{
+                        width: 90px;
+                        overflow: auto;
+        
+}
+.cubes{
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+}
+.cubes img{
+           max-width: 50%;
+           fill: 
+}
+.florida{
+        background-color: rgb(57, 130, 214);
+}
+.florida img{
+             max-width: 50%;
+}       
+.designit{
+         background-color: #a2d39b;
+}
+.asu{
+        background-color: #61082b;
+
+} 
+.topps{
+        background-color: #ff091e;
+        fill: white;
+        
+}
+.bicylce{
+        background-color: #ff091e;
+}
+.hearst_corp{
+                background-color: rgb(69, 138, 202);
+}
+.lonely_planet{
+                background-color: rgb(1, 1, 110);
+}
+.clear_channel{
+                background-color: rgb(223, 221, 97);
+}
+
+
+     
+
+
+
+
+               
+                
+                
+
              
              
 
