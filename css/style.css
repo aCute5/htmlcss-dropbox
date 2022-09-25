@@ -65,9 +65,8 @@ nav li{
             color: white;
             background-color: rgb(0, 62, 255);
             max-width: max-content;
-            padding: 1em;
-            
-            min-width: 240px;
+            padding: 10px;            
+            min-width: 160px;
             text-align: center;
 }
 .blue-box{
@@ -119,11 +118,10 @@ nav li{
 main{
     width: 1200px;
     margin:auto ;
-    padding: 10em;
     line-height: 2rem;
-    display: flex;
-    flex-direction: column;
+    
 }
+    
 .plans{
         display: flex;
         padding: 2rem;
@@ -131,13 +129,26 @@ main{
         flex-wrap: wrap;
         gap: 2rem;
 }
+.plans h1{
+          font-size: 40px;
+          padding-top: 40px;
+}
 .plans div{
-            margin-top: 40px;
+            margin-top: 2rem;
 }
 .plans #buttons{
                 display: block;
                 padding-top: 1rem;
                 padding-bottom: 1rem;
+}
+.plans #buttons button{
+                        text-decoration: none;
+                        background-color: white;
+                        border: none;
+}
+.plans #buttons button:active {
+                                color: blue;
+                        
 }
 .container-plans{
                 max-width: 1300px;
@@ -149,7 +160,7 @@ main{
 .plans-cards{
              gap: 1em;
              border-style: groove;
-             padding: 1em;
+             padding: 20px;
              width: 400px;
              font-size: smaller;
              
@@ -158,14 +169,18 @@ main{
              border-bottom: 1px solid;
              text-align: center;
              border-color: grey;
+             padding: 0px;
+             margin: 0px;
+             width: 100%;             
+             
 }
 .plans-cards li{
                 list-style: none;
                
 } 
 .plans-cards .check-list:before{
-                         content:'✓';
-                         color: blue;
+                        content: "\f00c";
+                        color: blue;
 }
 .rule{
         max-width: 30px;
@@ -173,31 +188,39 @@ main{
      
 .plans-cards .bluebotton a{
                            color: white;
+                           justify-content: center;
+                           
 }
-.plans-cards .bluebotton{
-                         align-self: center;
-                         padding: 1em;
+
+.bluebotton .cards{
+                      width: 200px;
+                  
+}                         
                          
-}
+                         
+
 .enterprise{
             border: 1px solid;
             border-color: grey;
+            
             
 }
 .enterprise-section{
                         display: flex;
                         justify-content: space-between;
-                        padding: 2em;
+                        padding: 1em;
                         flex-wrap: wrap;
                                 
 }
 .enterprise-section .bluebotton{
                                 align-self: flex-end;
+                                padding: 1em;
                                 
                                 
 }
 .enterprise-paragraph{
-                        padding: 2em;
+                        padding: 20px;
+                       
 }
 .photo-p{
         display: flex;
@@ -241,10 +264,22 @@ main{
                    flex-wrap: wrap;
                    align-items: center;
 }
+.operations-cards p{
+                    font-size: 15px;
+}
 .discover{
-          padding-top: 4em;
+          padding-top: 30px;
           max-width: 400px;
 }
+.discover div{
+             padding-top: 20px;
+}
+.discover a{
+            color: blue;
+            text-decoration: underline;
+}            
+               
+
 .container-cubes-section{
                         display: flex;
                        
@@ -257,12 +292,13 @@ main{
 }
 .overflow-section{
                 width: 33.3%;
-                padding: 2rem;
+                overflow: scroll;
+                padding: 2em;
                 
 }
 .overflow-section hr{
                         width: 90px;
-                        overflow: auto;
+                        
         
 }
 .cubes{
@@ -274,7 +310,8 @@ main{
 }
 .cubes img{
            max-width: 50%;
-           fill: 
+           fill:white
+           
 }
 .florida{
         background-color: rgb(57, 130, 214);
@@ -404,8 +441,8 @@ footer{
           flex-direction: column;
           justify-content: center;
           width: 1200px;
-          margin: auto;
-          padding: 2rem 0;
+          padding: 3rem;
+          
 }
 .language hr{
                 width: 120px;
