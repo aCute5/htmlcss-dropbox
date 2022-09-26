@@ -19,6 +19,7 @@ nav{
         position: fixed;
         box-shadow: 3px 2px rgb(184, 184, 184);
         color: black;
+        padding: 10px;
 }       
 a{
         text-decoration: none;
@@ -182,8 +183,10 @@ main{
                
 } 
 .plans-cards .check-list:before{
-                        content: "\f00c";
+                        font-family: 'Font Awesome\ 6 Free';
+                        content: "";
                         color: blue;
+                        
 }
 .rule{
         max-width: 30px;
@@ -199,7 +202,7 @@ main{
                       width: 200px;
                   
 }                         
-                         
+                       
                          
 
 .enterprise{
@@ -221,7 +224,10 @@ main{
                                 color: white;
                                 
                                 
+                                
 }
+
+
 .enterprise-paragraph{
                         padding: 20px;
                        
@@ -408,11 +414,12 @@ main{
 .container-footer{
                    display: flex;
                    justify-content: space-around;
-                   width: 1200px;
+                   width: 1000px;
                    align-content: space-between ;
                    padding-top: 50px; 
                    padding-bottom: 50px;
-                   margin: auto;                
+                   margin: auto; 
+                   flex-wrap: wrap;               
 }
 footer{
         background-color: rgb(0, 0, 0);
@@ -424,6 +431,7 @@ footer{
         padding-top: 20px;
         color: white;
         font-size: smaller;
+        flex-grow: 1;
 }
 .footer-column li{
         padding: 10px 20px;
@@ -441,18 +449,17 @@ footer{
          color: white;
 }
 .language{
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          width: 1200px;
-          padding: 3rem;
+        border-top: 1px solid;
+        border-color: grey;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-left: 1em;
+        padding-right: 1em;
+        
+}         
+         
           
-}
-.language hr{
-                width: 120px;
-                margin: 2rem;
-                
-}
+
 
 
           
