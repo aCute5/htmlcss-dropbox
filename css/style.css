@@ -160,18 +160,21 @@ main{
 .plans-cards{
              gap: 1em;
              border-style: groove;
-             padding: 20px;
+             
              width: 400px;
              font-size: smaller;
              
+}
+.text-cards{
+            padding: 20px;
 }
 .titles-cards{
              border-bottom: 1px solid;
              text-align: center;
              border-color: grey;
-             padding: 0px;
-             margin: 0px;
-             width: 100%;             
+             width: 100%; 
+             vertical-align: middle;
+             padding-bottom: 15px;           
              
 }
 .plans-cards li{
@@ -215,6 +218,7 @@ main{
 .enterprise-section .bluebotton{
                                 align-self: flex-end;
                                 padding: 1em;
+                                color: white;
                                 
                                 
 }
@@ -310,7 +314,7 @@ main{
 }
 .cubes img{
            max-width: 50%;
-           fill:white
+           filter: invert(1);
            
 }
 .florida{
