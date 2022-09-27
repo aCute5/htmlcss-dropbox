@@ -147,10 +147,17 @@ main{
                         background-color: white;
                         border: none;
 }
-.plans #buttons button:active {
+.plans #button:hover {
                                 color: blue;
+                                transition: 0,7s;
                         
 }
+.plans #button:active{
+                         color: grey;
+                         transition: 0,7s;
+
+}
+
 .container-plans{
                 max-width: 1300px;
                 display: flex;
